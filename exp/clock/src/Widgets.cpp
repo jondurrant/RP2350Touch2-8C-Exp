@@ -111,6 +111,9 @@ void Widgets::setTime(uint8_t h, uint8_t m){
 			lv_meter_set_indicator_end_value(pMeter, pIndicMin, m);
 
 			float hh = (float) h / 12.0 * 60 + (float) m / 60.0 * 5.0;
+			if (hh > 60.0){
+				hh = hh - 60.0;
+			}
 
 			lv_meter_set_indicator_end_value(pMeter, pIndicHour, (int)hh);
 		}
