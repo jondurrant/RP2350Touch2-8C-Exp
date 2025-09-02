@@ -1,3 +1,9 @@
 [submodule "lib/lvgl"]
 	path = lib/lvgl
 	url = https://github.com/lvgl/lvgl
+[submodule "lib/FreeRTOS-Kernel"]
+	path = lib/FreeRTOS-Kernel
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel
+[submodule "lib/sensors_PICO"]
+	path = lib/sensors_PICO
+	url = https://github.com/gavinlyonsrepo/sensors_PICO
