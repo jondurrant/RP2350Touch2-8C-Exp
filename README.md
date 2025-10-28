@@ -17,6 +17,20 @@ The LVGL configuration and port files to run LVGL on this board are included in 
 
 BSP and LVGL are build as static libraries and linked to the binary.
 
+## Four Clock Demonstrations
+
+### Clock HM
+This is based on the LVGL Documentation Example and ported to this display. I don't like the way the hour hand jumps between digits.
+
+### Clock HfracM
+Fractional Hour hand movement on a hour and min clock face.
+
+### Clock HMS
+Adding seconds hand to the clock
+
+### Clock Backwards
+A bit of fun. Make the clockface backwards and run the hands backwards!
+
 ## Clone and Build
 I have used submodules for LVGL so please clone with the --recurse-submodules switch.
 
